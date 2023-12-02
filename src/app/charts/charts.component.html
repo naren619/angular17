@@ -1,0 +1,81 @@
+
+<h1 class="h3 mb-4 text-gray-800">Charts => (route & children route)</h1>
+<div class="row">
+    <!-- Earnings (Monthly) Card Example -->
+    <div class="col-xl-4 col-md-6 mb-4">
+        <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                            Area chart</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                    </div>
+                    <div class="col-auto">
+                        <a routerLink="area"  routerLinkActive="active"><i class="fas fa-calendar fa-2x text-gray-300"></i></a>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Earnings (Annual) Card Example -->
+    <div class="col-xl-4 col-md-6 mb-4">
+        <div class="card border-left-success shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            Pie chart</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">55</div>
+                    </div>
+                    <div class="col-auto">
+                        <a routerLink="pie"  routerLinkActive="active"><i class="fas fa-dollar-sign fa-2x text-gray-300"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pending Requests Card Example -->
+    <div class="col-xl-4 col-md-6 mb-4">
+        <div class="card border-left-warning shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                            Bar chart</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">$15000</div>
+                    </div>
+                    <div class="col-auto">
+                        <a routerLink="bar"  routerLinkActive="active"><i class="fas fa-comments fa-2x text-gray-300"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="row">
+  <div class="col-lg-12">
+    <div class="card shadow mb-4">
+        
+        <router-outlet></router-outlet>
+    </div>
+</div>
+</div> -->
+
+<div class="row">
+    <div class="col-xl-2 col-lg-2">
+    </div>
+    <div class="col-xl-7 col-lg-7">
+        <!-- Area Chart -->
+        <div class="card shadow mb-4">
+            <router-outlet></router-outlet>
+        </div>
+    </div><div class="col-xl-2 col-lg-2">
+    </div>
+
+</div>
+ 
